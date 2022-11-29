@@ -1,24 +1,39 @@
-# demogit
+# Demogit
 
 ## git init
 
 A taper dans le terminal :
 
 
-Initialisation du depot
+Depot initialization
 
 `git init`
 
 
+Ajouter le fichier README 
 
-git add README.md
+`git add README.md`
 
-git add *
+Ajouter l'ensemble des fichiers
 
+`git add *`
 
-git commit -m "first commit"
+Créer un premier commit "first commit"
 
+`git commit -m "first commit"`
 
-git branch -M main
-git remote add origin git@github.com:Esbillard/Myproject.git
-git push -u origin main
+Indiquer que c'est une première branche
+
+`git branch -M main`
+
+Associer avec un ssh gitHub
+
+`git remote add origin git@github.com:Esbillard/demogit.git`
+
+Cloner le git sur gitHub
+
+`git push -u origin main`
+
+Faire un nouveau commit sur le readme : selectionne le fichier et commit indique les nouvelles modifications et envoi sur gitHub
+
+`git push -u origin main`

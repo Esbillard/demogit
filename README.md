@@ -34,6 +34,8 @@ Cloner le git sur gitHub
 
 `git push -u origin main`
 
-Faire un nouveau commit sur le readme : selectionne le fichier et commit indique les nouvelles modifications et envoi sur gitHub
+## Faire un nouveau commit sur le fichier README
+
+selectionne le fichier et commit indique les nouvelles modifications et envoi sur gitHub
 
 `git push -u origin main`
